@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!--
+    This is my UAT Space Page.
+    It was created in my CSC102 class from Spring 2023.
+    This is for my week 4 blastoff assignment.
+    
+    Created by: Emily Parra
+    emikello@uat.edu
+-->
+<html>
+
+<head>
+    <title>
+        Emily's UATSpace Page
+    </title>
+    <script src="code.js"></script>
+    <script src="code2.js"></script>
+    <link rel="stylesheet" href="UATSpaceStyle.css">
+</head>
+
+<body>
+    <img src="UATSpaceLogo.jpg">
+    <h1>
+        Welcome to the UAT Space Page!
+    </h1>
+    <p>
+        This is a test of the parapraph tags.<br> It can be one or more lines depending on the amount of text and
+        the
+        size of the window.
+    </p>
+    <script>
+            //alert("This is a test of the alert function. Click OK to continue.");
+            //document.write("This is a test of the document.write function.");
+    </script>
+    <br>
+    <br>
+    <h2>Blastoff Timer</h2>
+    <div id="blastoffDis">Press start to begin countdown</div>
+    <br>
+    <br>
+    <br>
+    <button onclick="neatBlastoffTimer();">Start</button>
+    <button>Stop</button>
+    <br>
+    <br>
+    <h2>Craps Game</h2>
+    <div id="die1Res">Die 1 Result</div><br>
+    <div id="die2Res">Die 2 Result</div><br>
+    <div id="diceSum">Sum of die 1 and die 2</div><br>
+    <div id="gameRes">Game Result</div>
+    <br>
+    <button onclick="playCraps()">Play Craps!</button>
+    <br>
+    <br>
+    <h2>Sandbox</h2>
+    <br>
+    <div id="sandboxText"> Text to play with</div>
+    <script>
+        var phunText1 = "This is my ";
+        var phunText2 = "phun text.";
+        document.getElementById("sandboxText").innerHTML = phunText1 + phunText2;
+    </script>
+</body>
+
+</html>
